@@ -7,4 +7,3 @@ class LoginPage:
 
 
 
-print(LoginPage.username)
