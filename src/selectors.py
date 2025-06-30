@@ -1,7 +1,7 @@
 
 
 class LoginPage:
-    username = "student"
+    username = "username"
     password = "password"
     submit_button = "submit"
 
