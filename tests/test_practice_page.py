@@ -13,7 +13,7 @@ def test_practice_page(driver):
     page.open("https://practicetestautomation.com/practice/")
 
     page.click((By.CSS_SELECTOR,
-                ".loop-container > div > article > div.post-content > div:nth-child(2) > div:nth-child(1) > p > a")
+                ".wp-block-column a[href*='practice-test-login']")
                )
 
     success_msg = page.find((By.TAG_NAME, "h2"))
@@ -21,7 +21,7 @@ def test_practice_page(driver):
 
     page.open("https://practicetestautomation.com/practice/")
     page.click((By.CSS_SELECTOR,
-                ".loop-container > div > article > div.post-content > div:nth-child(4) > div:nth-child(1) > p > a")
+                ".wp-block-column a[href*='practice-test-exceptions']")
                )
     success_msg1 = page.find((By.TAG_NAME, "h2"))
 
