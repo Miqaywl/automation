@@ -26,3 +26,6 @@ def test_practice_page(driver):
     success_msg1 = page.find((By.TAG_NAME, "h2"))
 
     assert success_msg1.text == "Test Exceptions"
+    print("ankap message")
+
+    # inch vor change change
